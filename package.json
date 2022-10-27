@@ -1,0 +1,19 @@
+{
+  "name": "game",
+  "version": "1.0.0",
+  "main": "",
+  "license": "MIT",
+  "dependencies": {
+    "nodemon": "2.0.20",
+    "zeromq": "5.2.8"
+  },
+  "scripts": {
+    "server": "nodemon GameServer.js",
+    "client": "nodemon GameClient.js 1 100"
+  },
+  "devDependencies": {
+    "@types/node": "^17.0.21"
+  },
+  "keywords": [],
+  "description": ""
+}
